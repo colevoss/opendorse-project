@@ -51,3 +51,27 @@ This project was bootstrapped using `create-react-app`. I chose this because it 
 You will notice the heavy use of React hooks. I am a big fan of the new Hooks API and had a great time using them in this project. While I used `react-redux`'s `useSelect`, and `useDispatch` hooks, I am very familiar with their standard api of using `mapStateToProps`, `mapDispatchToProps`, and `connect`.
 
 I used `redux-thunk` for asynchronous redux actions along with a custom action creator specifically for async actions. (See [createAsyncAction.js](src/state/createAsyncAction.js)).
+
+##### Tech Used:
+
+- Create React App
+- React Hooks
+- Redux
+  - redux-thunk
+  - redux-logger
+- Sass (.scss)
+- CSS Modules (File.module.scss)
+- D3
+  - d3-array
+  - d3-axis
+  - d3-format
+  - d3-scale
+  - d3-selection
+  - d3-shape
+
+##### Other things I would have loved to have done in this project:
+
+- Unit testing using `jest` and `react-testing-library`
+- Type safety using Flow or Typescript
+- Abstract some more of the D3 Axis components to make them easier to use
+- Make things look better
