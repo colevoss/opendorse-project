@@ -1,0 +1,8 @@
+/* autoprefixer grid: autoplace */
+
+.Main {
+  grid-area: 'main';
+  height: 100%;
+  display: flex;
+  flex: 1;
+}

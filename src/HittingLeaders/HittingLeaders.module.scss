@@ -1,0 +1,17 @@
+@import '../styles/colors.scss';
+
+.Bar {
+  fill: $secondary-color;
+  stroke: $primary-color;
+  transform: translate(32px, 0px);
+  cursor: pointer;
+}
+
+.BarDescription {
+  transform: translate(32px, -16px);
+}
+
+.SidebarLoadingText {
+  padding: 8px 16px;
+  color: $tertiary-color;
+}

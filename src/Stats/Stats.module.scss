@@ -1,0 +1,35 @@
+@import '../styles/colors.scss';
+
+.Line {
+  fill: none;
+  stroke: $primary-color;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 3;
+}
+
+.StatCircle {
+  fill: $secondary-color;
+  cursor: pointer;
+}
+
+.StatCircleDescription {
+  fill: $primary-color;
+  transform: translate(-5px, 25px);
+}
+
+.EmptyState {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.EmptyStateText {
+  color: $tertiary-color;
+}
+
+.SidebarLoadingText {
+  padding: 8px 0;
+  color: $tertiary-color;
+}

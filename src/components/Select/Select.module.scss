@@ -1,0 +1,46 @@
+@import '../../styles/colors.scss';
+
+.Select {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-image: none;
+  box-shadow: none;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  background: $primary-color;
+  color: white;
+  border: none;
+
+  &:disabled {
+    background-color: gray;
+  }
+}
+
+.SelectContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+
+.SelectContainer:after {
+  content: '\25BC';
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 16px;
+  background: #34495e;
+  color: white;
+  cursor: pointer;
+  pointer-events: none;
+}

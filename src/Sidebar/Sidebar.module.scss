@@ -1,0 +1,38 @@
+/* autoprefixer grid: autoplace */
+@import '../styles/colors.scss';
+
+@mixin link {
+  padding: 8px 0;
+  font-size: 24px;
+}
+
+.Sidebar {
+  grid-area: 'sidebar';
+  box-shadow: 0px 1px 6px 6px rgba(40, 44, 52, 0.3);
+
+  display: flex;
+  flex-direction: column;
+
+  .SidebarLinksContainer {
+    padding: 16px;
+    background: $primary-color;
+    display: flex;
+    flex-direction: column;
+
+    .Link {
+      @include link;
+      color: white;
+    }
+
+    .LinkActive {
+      @include link;
+      color: $secondary-color;
+      font-weight: 600;
+    }
+  }
+}
+
+.SidebarChild {
+  display: flex;
+  flex-direction: column;
+}

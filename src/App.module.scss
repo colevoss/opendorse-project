@@ -1,0 +1,15 @@
+/* autoprefixer grid: autoplace */
+
+@import 'styles/colors.scss';
+
+.App {
+  // background-color: $primary-color;
+  // display: flex;
+  // flex: 1;
+  display: grid;
+  height: 100%;
+
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'sidebar main';
+}
