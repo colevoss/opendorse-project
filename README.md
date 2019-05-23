@@ -34,7 +34,7 @@ $ yarn start
 
 ## About this project:
 
-I chose to built a project dealing with MLB baseball stats. Using [this stats API](https://appac.github.io/mlb-data-api-docs/) I was able to put together two different stat charts.
+I chose to build a project dealing with MLB baseball stats. Using [this stats API](https://appac.github.io/mlb-data-api-docs/) I was able to put together two different stat charts.
 
 This first chart you will see loads the top 10-12 leaders in the selected season and batting stat into a bar graph. Try clicking and hovering on a bar to toggle the corresponding data.
 
