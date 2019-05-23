@@ -42,7 +42,7 @@ This first chart you will see loads the top 10-12 leaders in the selected season
 
 Navigating to the Stats page, you can choose a stat, season, team, and player to load stats for. Once a player is chosen, the stats for their entire career will be displayed on a line graph. You can easily switch the stat you want to display for the selected player and the graph will update immediately. Try clicking and hovering on a circle to toggle the corresponding data.
 
-![Leaders](images/stats.png)
+![Stats](images/stats.png)
 
 ## About the Tech:
 
